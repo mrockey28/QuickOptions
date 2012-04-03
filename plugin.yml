@@ -1,0 +1,17 @@
+name: QuickOptions
+main: com.mrockey28.bukkit.QuickOptions.QuickOptionsPlugin
+version: 0.1
+author: mrockey28
+commands:
+  quickoptions:
+    description: uses one or more items to repair a tool or armour
+    aliases: qo
+    usage: |
+      Incorrect usage of command /<command>.
+      Proper usage of /<command>
+       '/<command> levelup' levelup your character
+       
+permissions:
+  QuickOptions.access:
+    description: Necessary for access to any QuickOptions 
+    default: false
